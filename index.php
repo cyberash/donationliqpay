@@ -87,20 +87,6 @@ $balance_arr = mysql_fetch_array($balance);
 	</div>
    </div>
   </main>
-  <footer id="footer">
-  
-  </footer>
-  <script type="text/javascript">
-   function pay() {
-	   var wallet = document.getElementById('wallet').value;
-	   if(wallet == 'qiwi') {
-		   document.getElementById('qiwi-form').style.display='block';
-	   }
-	   else {
-		   document.getElementById('yandex-form').style.display='block';
-	   }
-	   return false;
-   }
-  </script>
+
  </body>
 </html>
