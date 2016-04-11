@@ -1,0 +1,77 @@
+/* font-family: "WhitneyBook"; */
+@font-face {
+    font-family: "WhitneyBook";
+    src: url("../fonts/WhitneyBook/WhitneyBook.eot");
+    src: url("../fonts/WhitneyBook/WhitneyBook.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/WhitneyBook/WhitneyBook.woff") format("woff"),
+    url("../fonts/WhitneyBook/WhitneyBook.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* font-family: "WhitneyLight"; */
+@font-face {
+    font-family: "WhitneyLight";
+    src: url("../fonts/WhitneyLight/WhitneyLight.eot");
+    src: url("../fonts/WhitneyLight/WhitneyLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/WhitneyLight/WhitneyLight.woff") format("woff"),
+    url("../fonts/WhitneyLight/WhitneyLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+/* Кастомные стили */
+.subbuttonnn {
+border: 3px solid #f7991d;
+padding: 10px 25px 10px 25px;
+background: #fff;
+cursor: pointer;
+}
+.login {
+text-align: center;
+}
+header {
+padding: 25px 0 25px 0;
+margin: 0 0 50px 0;
+background: #1e4592;
+}
+header .head {
+text-align: center;
+}
+header .head h1 {
+color: #fff;
+font-size: 28px;
+}
+main {
+
+}
+main .main {
+border: 2px solid #d6d6d6;
+padding: 25px 0 25px 0;
+}
+main .main .sum {
+text-align: center;
+}
+main .main .sum p {
+font-size: 32px;
+}
+main .main .add {
+text-align: center;
+padding: 25px 0 25px 0;
+}
+main .main .form {
+text-align: center;
+}
+main .main p {
+font-size: 26px;
+text-align: center;
+}
+main .main .people {
+text-align: center;
+padding: 25px 0 25px 0;
+}
+main .main .people h2 {
+font-size: 26px;
+}
+.admin-head {
+text-align: center;
+padding: 25px 0 25px 0;
+}
